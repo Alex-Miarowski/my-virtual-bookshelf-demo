@@ -1,0 +1,23 @@
+@media (min-width: 992px) {
+    header{
+        height: 400px;
+    }
+
+    h1{
+        font-size: 5rem;
+    }
+
+    .book-search-panel{
+        &__search-bar{
+            margin-bottom: 1em;
+        }
+
+        &__filters-panel{
+            margin-top: 2em;
+        }
+
+        &__label{
+            margin-top: 0.6em;
+        }
+    }
+}

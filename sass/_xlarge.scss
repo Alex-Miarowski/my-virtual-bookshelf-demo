@@ -1,0 +1,37 @@
+@media (min-width: 1200px) {
+	header {
+		position: relative;
+		height: 500px;
+		background-image: url('../img/bgImgLarge.jpg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: #F6F5F1;
+			width: 50%;
+			height: 100%;
+			z-index: -1;
+		}
+
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            background: linear-gradient(#D4CFCB, #C6C1BD);
+            width: 50%;
+            height: 100%;
+            z-index: -1;
+        }
+	}
+
+    h1{
+        margin-top: .5em;
+        font-size: 7rem;
+    }
+}

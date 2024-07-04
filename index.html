@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/79445b9466.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My Virtual Bookshelf</title>
+</head>
+
+<body>
+    <nav></nav>
+
+    <header>
+        <h1>My Bookshelf</h1>
+    </header>
+
+    <main>
+
+        <section class="book-search-panel section">
+            <div class="book-search-panel__search-bar">
+                <input type="text" autocomplete="off" id="book-search-panel__input-title"
+                    class="book-search-panel__input" name="book-search-panel__input-title" placeholder="Book title:" />
+                <button id="book-search-panel__btn-search" class="book-search-panel__btn"><i
+                        class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <button id="book-search-panel__btn-filters" class="book-search-panel__btn">Filters</button>
+            <div class="book-search-panel__filters-panel">
+                <input type="text" autocomplete="off" id="book-search-panel__input-author"
+                    class="book-search-panel__input" name="book-search-panel__input-author" placeholder="Author:" />
+                <label class="book-search-panel__label" for="book-search-panel__checkbox-free-to-read">
+                    <input type="checkbox" id="book-search-panel__checkbox-free-to-read"
+                        class="book-search-panel__checkbox" name="book-search-panel__checkbox-free-to-read">
+                    Free to read only
+                </label>
+            </div>
+        </section>
+
+        <section class="books-panel section">
+        </section>
+
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

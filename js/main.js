@@ -65,7 +65,6 @@ function checkSearchOptions() {
 	if (checkboxFreeToRead.checked) {
 		searchOptions += '&filter=full'
 	}
-	console.log(searchOptions)
 }
 
 function createBookCard(item) {
